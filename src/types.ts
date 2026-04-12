@@ -29,13 +29,21 @@ export type FontVariant = "bold" | "bold-italic" | "bold-sans-serif" |
     "sans-serif-bold-italic" | "sans-serif-italic" | "script";
 
 export type FontName =
-    | "Main-Bold"
-    | "Math-Italic"
-    | "Main-BoldItalic"
-    | "Script-Regular"
-    | "Fraktur-Regular"
     | "AMS-Regular"
+    | "Caligraphic-Regular"
+    | "Fraktur-Regular"
+    | "Main-Bold"
+    | "Main-BoldItalic"
+    | "Main-Italic"
+    | "Main-Regular"
+    | "Math-BoldItalic"
+    | "Math-Italic"
     | "SansSerif-Regular"
     | "SansSerif-Bold"
     | "SansSerif-Italic"
+    | "Script-Regular"
+    | "Size1-Regular"
+    | "Size2-Regular"
+    | "Size3-Regular"
+    | "Size4-Regular"
     | "Typewriter-Regular";
